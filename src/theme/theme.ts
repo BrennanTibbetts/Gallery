@@ -35,6 +35,9 @@ export const theme = createTheme({
       secondary: '#b0b0b0', // Gray text for subtle contrast
     },
   },
+  shape: {
+    borderRadius: 18
+  },
   components: {
     MuiButtonBase: {
       defaultProps: {},
@@ -54,7 +57,6 @@ export const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: '#1e1e1e',
           color: '#ffffff',
         },
       },
