@@ -20,6 +20,7 @@ const TitleBar: React.FC<TitleBarProps> = ({ title }) => {
                 variant="h4" 
                 sx={{
                     fontFamily: '"Libre Baskerville", serif', 
+                    fontSize: '4vh',
                     fontStyle: 'italic', 
                     fontWeight: 700
                 }}
@@ -35,6 +36,7 @@ const TitleBar: React.FC<TitleBarProps> = ({ title }) => {
                     sx={{
                         fontFamily: '"Libre Baskerville", serif', 
                         fontStyle: 'italic', 
+                        fontSize: '4vh',
                         fontWeight: 700,
                         color: 'white',
                         '&:hover': {
